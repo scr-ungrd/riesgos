@@ -7,29 +7,34 @@ project:
   description: Proyecto de análisis y modelado de riesgos usando metodologías cuantitativas
   keywords: [riesgos, análisis, modelado, cuantitativo, finanzas]
   authors:
-    - name: Mauricio Romero Torres
-      orcid: 0000-0003-3282-0372
+    - name: Subdirección para el Conocimiento del Riesgo
       affiliation: Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)
-      github: mromerot
+      github: scr-ungrd
 
   # github:
   toc:
-    - title: index
+    - title: Inicio
       file: index.md
-    - title: Cuadernos de análisis
-      children:
-        - file: agu-notebook.ipynb
-        - file: la-palma-seismicity.md
     - title: Metodologías de análisis de riesgos
       children:
-        - file: identificacion-escenarios.md
-        - file: monitoreo-riesgo.md
-        - file: analisis-evaluacion.md
+        - file: conceptos/analisis-evaluacion.md
+        - file: conceptos/identificacion-escenarios.md
+        - file: conceptos/monitoreo-riesgo.md
+    - title: Cuadernos de análisis
+      children:
+        - file: notebooks/agu-notebook.ipynb
+        - file: notebooks/la-palma-seismicity.md
+
   
 site:
   template: book-theme
   title: Análisis de Riesgos
   options:
     url: https://scr-ungrd.github.io/riesgos
+    primary_color: "#0154a5"
+    secondary_color: "#ffffff"
+    accent_color: "#2563eb"
+    extra_head: |
+      <link rel="stylesheet" href="_static/custom.css">
     # favicon: favicon.ico
     # logo: site_logo.png
