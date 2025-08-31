@@ -5,12 +5,13 @@ description: We look at earthquake data from the Instituto Geográfico Nacional 
 authors:
   - name: Steve Purves
     orcid: 0000-0002-0760-5497
+    email: steve@curvenote.com
     corresponding: true
     affiliation: Curvenote
   - name: Rowan Cockett
     orcid: 0000-0002-7859-8394
     affiliation: Curvenote
-date: 2022/02/01
+date: 2022-02-01
 license: CC-BY-4.0
 keywords:
   - La Palma
