@@ -1,14 +1,31 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+
 project:
   id: e4f73b2d-919f-4c5b-8e83-21fc729db72e
   title: Análisis de Riesgos
   description: Proyecto de análisis y modelado de riesgos usando metodologías cuantitativas
   keywords: [riesgos, análisis, modelado, cuantitativo, finanzas]
   authors:
-    - name: Mauricio
+    - name: Mauricio Romero Torres
+      orcid: 0000-0003-3282-0372
+      affiliation: Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)
+      github: mromerot
+
   # github:
-  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - title: index
+      file: index.md
+    - title: Cuadernos de análisis
+      children:
+        - file: agu-notebook.ipynb
+        - file: la-palma-seismicity.md
+    - title: Metodologías de análisis de riesgos
+      children:
+        - file: identificacion-escenarios.md
+        - file: monitoreo-riesgo.md
+        - file: analisis-evaluacion.md
+  
 site:
   template: book-theme
   title: Análisis de Riesgos
