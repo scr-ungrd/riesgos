@@ -12,6 +12,8 @@ project:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
+  title: Análisis de Riesgos
+  url: https://scr-ungrd.github.io/riesgos
   # options:
   #   favicon: favicon.ico
   #   logo: site_logo.png
