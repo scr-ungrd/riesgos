@@ -1,0 +1,17 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: e4f73b2d-919f-4c5b-8e83-21fc729db72e
+  title: Análisis de Riesgos
+  description: Proyecto de análisis y modelado de riesgos usando metodologías cuantitativas
+  keywords: [riesgos, análisis, modelado, cuantitativo, finanzas]
+  authors:
+    - name:
+        given: Mauricio
+  # github:
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png
