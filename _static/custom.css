@@ -153,6 +153,38 @@ blockquote {
   margin: 0 auto;
 }
 
+/* Banner con título superpuesto */
+.banner-overlay {
+  position: relative;
+  background-image: url('./banner.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+}
+
+.banner-overlay h1 {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgba(0,0,0,0.3);
+  border-radius: 10px;
+  border-bottom: none;
+}
+
+/* Ocultar el título original de la página de análisis */
+.content h1:first-of-type {
+  display: none;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .content {
@@ -161,5 +193,13 @@ blockquote {
   
   h1 {
     font-size: 2rem;
+  }
+  
+  .banner-overlay {
+    height: 200px;
+  }
+  
+  .banner-overlay h1 {
+    font-size: 1.8rem;
   }
 }

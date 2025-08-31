@@ -1,20 +1,22 @@
 ---
 title: Análisis y Evaluación del Riesgo
+date: 2025-09-01
 authors:
     - name: Subdirección para el Conocimiento del Riesgo
       affiliation: Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)
-      github: scr-ungrd
-export: pdf
-numbering:
-  heading_2: false
+banner: banner.jpg
+exports: 
+  - format: pdf
 bibliography: references.bib
 ---
 
-:::{figure} banner.jpg :class: banner-image :height: 300px :alt: Banner Análisis y Evaluación del Riesgo :::
+![](banner.jpg)
+
+# Análisis y Evaluación del Riesgo
 
 ## Introducción
 
-El análisis y evaluación del riesgo constituye el componente central de cualquier sistema de gestión de riesgos. Esta sección aborda las metodologías, herramientas y técnicas para cuantificar, modelar e interpretar los riesgos identificados, proporcionando la base científica necesaria para la toma de decisiones informadas [@armenteras2020; @altamiranda-saavedra2020].
+El análisis y evaluación del riesgo constituye el componente central de cualquier sistema de gestión de riesgos. Esta sección aborda las metodologías, herramientas y técnicas para cuantificar, modelar e interpretar los riesgos identificados, proporcionando la base científica necesaria para la toma de decisiones informadas.
 
 ## Metodologías de Análisis
 
