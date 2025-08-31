@@ -6,14 +6,13 @@ project:
   description: Proyecto de análisis y modelado de riesgos usando metodologías cuantitativas
   keywords: [riesgos, análisis, modelado, cuantitativo, finanzas]
   authors:
-    - name:
-        given: Mauricio
+    - name: Mauricio
   # github:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
   title: Análisis de Riesgos
-  url: https://scr-ungrd.github.io/riesgos
-  # options:
-  #   favicon: favicon.ico
-  #   logo: site_logo.png
+  options:
+    url: https://scr-ungrd.github.io/riesgos
+    # favicon: favicon.ico
+    # logo: site_logo.png
