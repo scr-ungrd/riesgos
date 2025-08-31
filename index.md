@@ -38,3 +38,12 @@ praeponere muneris veloxque ferenti a fateri tenet esse, haustus domum. Est Pers
     - Amenaza sísmica
     - Tsunami
     - Volcanes
+
+### [4. AGU Notebook - Análisis de Datos Sísmicos](agu-notebook.ipynb)
+Notebook interactivo con análisis práctico de datos sísmicos para evaluación de riesgos volcánicos usando datos del Instituto Geográfico Nacional.
+
+- Procesamiento y limpieza de datos sísmicos del IGN
+- Análisis exploratorio de patrones espaciales y temporales  
+- Visualizaciones interactivas de actividad sísmica
+- Identificación de enjambres sísmicos y fases eruptivas
+- Aplicaciones en gestión de riesgos volcánicos
