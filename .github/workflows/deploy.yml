@@ -41,7 +41,18 @@ jobs:
         fi
         
     - name: Build MyST
-      run: myst build --html
+      run: |
+        myst clean
+        myst build --html
+        
+    - name: Debug build output
+      run: |
+        echo "Listing _build directory:"
+        ls -la _build/ || echo "_build not found"
+        echo "Listing _build/html directory:"
+        ls -la _build/html/ || echo "_build/html not found"
+        echo "Looking for any build output:"
+        find . -name "*.html" -type f || echo "No HTML files found"
       
     - name: Setup Pages
       uses: actions/configure-pages@v4
