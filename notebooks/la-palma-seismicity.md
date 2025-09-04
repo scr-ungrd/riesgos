@@ -2,6 +2,7 @@
 title: La Palma Seismicity 2021
 subtitle: An analysis of earthquake swarms in the Canary Islands
 description: We look at earthquake data from the Instituto Geográfico Nacional (IGN) to understand the 2021 eruption on La Palma in the Canary Islands.
+thumbnail: ../images/banner.png
 authors:
   - name: Steve Purves
     orcid: 0000-0002-0760-5497
@@ -26,8 +27,15 @@ abbreviations:
   UTC: Coordinated Universal Time
   USGS: United States Geological Survey
 ---
+:::{figure} ../images/banner.png
+:name: banner-image
+:class: banner-image
+:width: 100%
 
 +++ {"part": "abstract"}
+
+La Palma volcanic activity and seismicity analysis
+:::
 
 In September 2021, a significant eruption started on La Palma in the Canary Islands. This event was preceded by seismic unrest that had been ongoing since 2017, with particular increases in activity from September 2021. We use earthquake data from the Instituto Geográfico Nacional (IGN) to examine the earthquake swarms and their relationship to the eruption. We confirm that the seismic activity shows two distinct patterns — clusters consistent with the movement of magma at crustal depths (10-15 km), and deeper seismicity (20-35 km) from which the main eruption originated. The data shows that the deeper swarm began in the mid-2010s but became much more intense in 2021.
 

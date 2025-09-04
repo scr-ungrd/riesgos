@@ -20,10 +20,13 @@ project:
         - file: conceptos/analisis-evaluacion.md
         - file: conceptos/identificacion-escenarios.md
         - file: conceptos/monitoreo-riesgo.md
+        - file: conceptos/glosario.md
     - title: Cuadernos de análisis
       children:
         - file: notebooks/agu-notebook.ipynb
         - file: notebooks/la-palma-seismicity.md
+        - file: notebooks/inundacion-costera.md
+        - file: notebooks/estaciones-hidrometeorologicas.md
 
   
 site:
