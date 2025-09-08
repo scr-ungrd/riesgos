@@ -35,15 +35,17 @@ Para ilustrar las ventajas de este nuevo paradigma de almacenamiento y acceso a 
 
 Esta implementación demostró mejoras de hasta 210 veces en los tiempos de procesamiento en comparación con enfoques tradicionales, incluso utilizando configuraciones de hardware estándar. Los resultados evidencian el potencial de los formatos cloud-native para transformar la gestión de datos científicos a gran escala, promoviendo su apertura, interoperabilidad y reutilización en áreas críticas como la gestión del riesgo y la investigación climática.
 
+## Información del evento
+
+-   Fecha: Martes 24 de junio, 8:30 am a 12:30 pm
+
+-   Duración: 4 horas
+
+-   Lugar: Avenida Calle 26 No. 92-32 Connecta, Edificio G9, Piso 1, Sala 3
+
+-   Modalidad: Taller teórico práctico presencial, solo por invitación
+
 ## Agenda
-
-Fecha: Martes 24 de junio, 8:30 am a 12:30 pm
-
-Duración: 4 horas
-
-Lugar: Avenida Calle 26 No. 92-32 Connecta, Edificio G9, Piso 1, Sala 3
-
-Modalidad: Taller teórico práctico presencial, solo por invitación
 
 -   8:30–8:45: Saludo de bienvenida
 -   8:45–9:45: Charla introductoria: Del Dato al Impacto: Zarr y la Nueva Era de Datos Abiertos en la Nube para la Gestión del Riesgo de Desastres
@@ -62,3 +64,7 @@ Modalidad: Taller teórico práctico presencial, solo por invitación
 -   Libro de Python: Ciencia de Datos Hidrometeorológicos con Python. [*Link*](https://aladinor.github.io/AtmosCol-2023/)
 
 [![](images/libro-python-taller-radares.png){width="250"}](https://aladinor.github.io/AtmosCol-2023/)
+
+## Cierre
+
+![Cierre del evento](images/foto-de-cierre.jpg){width="250"}x
