@@ -10,9 +10,8 @@ project:
     - name: Subdirección para el Conocimiento del Riesgo
       affiliation: Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)
       github: scr-ungrd
-  binder: true
 
-  # github:
+  github: https://github.com/scr-ungrd/riesgos
   toc:
     - title: Inicio
       file: index.md
@@ -24,6 +23,7 @@ project:
         - file: conceptos/glosario.md
     - title: Cuadernos de análisis
       children:
+        - file: notebooks/agu-notebook.ipynb
         - file: notebooks/inundacion-costera.md
         - file: notebooks/estaciones-hidrometeorologicas.md
     - title: Eventos
