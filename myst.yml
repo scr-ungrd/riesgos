@@ -39,6 +39,7 @@ site:
     primary_color: "#0154a5"
     secondary_color: "#ffffff"
     accent_color: "#2563eb"
+    logo_text: "Riesgos"
     extra_head: |
       <link rel="stylesheet" href="_static/custom.css">
     # favicon: favicon.ico

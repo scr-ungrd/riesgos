@@ -58,7 +58,9 @@ Esta implementación demostró mejoras de hasta 210 veces en los tiempos de proc
 
 :::
 
-:::{iframe} https://drive.google.com/file/d/1HO0ssqZaffpgqwvyomJr9IeEV7ROvNzd/preview :width: 100% :::
+```{iframe} https://drive.google.com/file/d/1HO0ssqZaffpgqwvyomJr9IeEV7ROvNzd/preview
+:width: 100%
+```
 
 ## Materiales y recursos
 
