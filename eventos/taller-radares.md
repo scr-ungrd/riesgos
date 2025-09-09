@@ -45,7 +45,9 @@ Esta implementación demostró mejoras de hasta 210 veces en los tiempos de proc
 
 -   Modalidad: Taller teórico práctico presencial, solo por invitación
 
-## Agenda
+
+:::{admonition} Programa del evento
+:class: note
 
 -   8:30–8:45: Saludo de bienvenida
 -   8:45–9:45: Charla introductoria: Del Dato al Impacto: Zarr y la Nueva Era de Datos Abiertos en la Nube para la Gestión del Riesgo de Desastres
@@ -54,17 +56,17 @@ Esta implementación demostró mejoras de hasta 210 veces en los tiempos de proc
 -   11:00–12:00: Ventajas de usar Zarr en datos de radar - Cómputo de Quasi-Vertical Profiles (QVP) - Cómputo de estimados de lluvia (QPE)
 -   12:00–12:30: Discusión, conclusiones y pasos a seguir
 
-:::{iframe} https://drive.google.com/file/d/1HO0ssqZaffpgqwvyomJr9IeEV7ROvNzd/preview
-:width: 100%
 :::
+
+:::{iframe} https://drive.google.com/file/d/1HO0ssqZaffpgqwvyomJr9IeEV7ROvNzd/preview :width: 100% :::
 
 ## Materiales y recursos
 
 -   Cuaderno de Python: **Radares Meteorológicos**. [*Link*](https://aladinor.github.io/AtmosCol-2023/radares)
 -   Libro de Python: Ciencia de Datos Hidrometeorológicos con Python. [*Link*](https://aladinor.github.io/AtmosCol-2023/)
 
-[![](images/libro-python-taller-radares.png){width="250"}](https://aladinor.github.io/AtmosCol-2023/)
+[![](images/libro-python-taller-radares.png)](https://aladinor.github.io/AtmosCol-2023/)
 
 ## Cierre
 
-![Cierre del evento](images/foto-de-cierre.jpg){width="250"}x
+![Cierre del evento](images/foto-de-cierre.jpg){width="250"}
