@@ -24,6 +24,7 @@ project:
     - title: Cuadernos de análisis
       children:
         - file: notebooks/agu-notebook.ipynb
+        - file: notebooks/lector-precipitacion-mensual.ipynb
         - file: notebooks/inundacion-costera.md
         - file: notebooks/estaciones-hidrometeorologicas.md
     - title: Eventos
