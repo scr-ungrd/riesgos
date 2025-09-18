@@ -1,4 +1,23 @@
-```{image} ../images/surf-obs.png
+---
+title: Estaciones hidrometeorológicas
+description: Acceso y análisis de datos de estaciones hidrometeorológicas del IDEAM usando Python
+authors:
+  - name: Alfonso Ladino
+    email: alfonso8@illinois.edu
+    orcid: 0000-0001-8081-7827
+    github: aladinor
+    affiliation: Universidad de Illinois, Urbana-Champaign, EE.UU.
+date: 2024-06-24
+license: CC-BY-4.0
+keywords:
+  - Datos abiertos
+  - Estaciones meteorológicas
+  - IDEAM
+  - Python
+---
+
+
+```{image} ../images/banner.png
 :width: 400px
 :align: center
 ```
@@ -14,11 +33,11 @@ Las estaciones hidrometeorológicas constituyen la columna vertebral del monitor
 Aprenderás a consultar el catálogo nacional de estaciones, visualizar su ubicación geográfica, e integrar consultas de datos históricos y en tiempo casi real desde la plataforma [datosabiertos.gov.co](https://www.datos.gov.co).
 
 
-1. Introduccion a la red de monitoreo del IDEAM
-2. Cátalogo de estaciones de IDEAM
-3. Consulta de datos usando la plataforma [datosabiertos.gov.co](https://www.datos.gov.co/) 
-1. Consulta de datos de temperatura y precipitación
-1. Otros datos disponibles
+1. Introducción a la red de monitoreo del IDEAM
+2. Catálogo de estaciones de IDEAM
+3. Consulta de datos usando la plataforma [datosabiertos.gov.co](https://www.datos.gov.co/)
+4. Consulta de datos de temperatura y precipitación
+5. Otros datos disponibles
 
 ## 📚 ¿Qué vas a aprender?
 
@@ -89,9 +108,6 @@ from sodapy import Socrata
 ```
 
 ```{code-cell} ipython3
-from sodapy import Socrata
-import pandas as pd
-
 # Crear cliente sin autenticación (None)
 client = Socrata("www.datos.gov.co", None)
 
