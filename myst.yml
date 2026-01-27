@@ -12,30 +12,43 @@ project:
       github: scr-ungrd
 
   github: https://github.com/scr-ungrd/riesgos
+  
+# Configuracion de TOC (ver:https://mystmd.org/guide/table-of-contents).  
   toc:
     - title: Inicio
       file: index.md
+# Seccion 1. Teoria y conceptos  
     - title: Metodologías de análisis de riesgos
       children:
         - file: conceptos/analisis-evaluacion.md
         - file: conceptos/identificacion-escenarios.md
         - file: conceptos/monitoreo-riesgo.md
         - file: conceptos/glosario.md
-    - title: Cuadernos de análisis
+# Seccion 2. Fuentes de datos para la GRD
+
+# Seccion 4. Analitica de riesgos
+
+# Seccion 3. Cuadernos de conocimiento
+    - title: Cuadernos de Conocimiento
+      file: notebooks/cuadernos-de-conocimiento.md
       children:
         - file: notebooks/agu-notebook.ipynb
         - file: notebooks/lector-precipitacion-mensual.ipynb
         - file: notebooks/inundacion-costera.md
         - file: notebooks/estaciones-hidrometeorologicas.md
+
+# Seccion 5. Eventos de conocimiento
     - title: Eventos
       children:
         - file: eventos/taller-radares.md
 
-  
+# Configuracion del sitio.  
 site:
   template: book-theme
-  title: Análisis de Riesgos
+  title: Riesgos
   options:
+    hide_toc: false
+    toc_expanded: true
     url: https://scr-ungrd.github.io/riesgos
     primary_color: "#0154a5"
     secondary_color: "#ffffff"

@@ -147,7 +147,13 @@ blockquote {
   color: #4b5563;
 }
 
-/* Sidebar/TOC styling */
+/* Sidebar/TOC styling - Similar a handbook.climaax.eu */
+:root {
+  --toc-font-size: 0.9rem;
+  --toc-font-size-mobile: 1.1rem;
+  --toc-header-font-size: 1.2rem;
+}
+
 .sidebar {
   background-color: #f8fafc;
   border-right: 1px solid var(--border-color);
@@ -161,6 +167,32 @@ blockquote {
 .sidebar a:hover {
   color: var(--primary-color);
   background-color: #e2e8f0;
+}
+
+/* TOC font sizes - desktop */
+nav[aria-label="Site navigation"] a,
+.theme-navigation a,
+.toc a,
+.sidebar nav a {
+  font-size: var(--toc-font-size);
+}
+
+/* TOC header/title font size */
+nav[aria-label="Site navigation"] > ul > li > a,
+.theme-navigation > ul > li > a,
+.sidebar nav > ul > li > a {
+  font-size: var(--toc-header-font-size);
+  font-weight: 600;
+}
+
+/* TOC font sizes - mobile */
+@media (max-width: 960px) {
+  nav[aria-label="Site navigation"] a,
+  .theme-navigation a,
+  .toc a,
+  .sidebar nav a {
+    font-size: var(--toc-font-size-mobile);
+  }
 }
 
 /* Clean spacing and layout */
