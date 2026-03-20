@@ -1,18 +1,11 @@
-#######################################################################################
-# Los proyectos en Myst tienen al menos tres componentes principales:
-# 1. project: Metadatos del proyecto
-# 2. toc: Tabla de contenidos del proyecto
-# 3. site: Configuracion del sitio web  
-#######################################################################################
-
-# 1. project: Metadatos del proyecto
-
+# See docs at: https://mystmd.org/guide/frontmatter
 version: 1
+
 project:
   id: e4f73b2d-919f-4c5b-8e83-21fc729db72e
-  title: Análisis de Riesgos
-  description: Proyecto de análisis y modelado de riesgos usando metodologías cuantitativas
-  keywords: [riesgos, análisis, modelado, cuantitativo]
+  title: Plataforma de Análisis de Riesgos — UNGRD
+  description: Repositorio científico y plataforma de análisis del riesgo de desastres en Colombia. Integra análisis de datos, visualización geoespacial y notebooks reproducibles.
+  keywords: [riesgos, análisis, modelado, cuantitativo, amenaza sísmica, Colombia, UNGRD, geoespacial]
   authors:
     - name: Subdirección para el Conocimiento del Riesgo
       affiliation: Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)
@@ -20,17 +13,29 @@ project:
 
   github: https://github.com/scr-ungrd/riesgos
 
-# 2. toc: Tabla de contenidos del proyecto
+  # --- Ejecución interactiva de cuadernos ---
+  # Opción 1: mybinder.org — lanza un servidor Jupyter gratuito en la nube
+  jupyter:
+    binder:
+      url: https://mybinder.org
+      repo: scr-ungrd/riesgos
+      ref: HEAD
+  
 # Configuracion de TOC (ver:https://mystmd.org/guide/table-of-contents).  
   toc:
     - title: Inicio
       file: index.md
-# Seccion 1. Teoria y conceptos  
-    - title: Metodologías de análisis de riesgos
+# Seccion 1. Amenazas
+    - title: Amenazas Naturales
       children:
-        - file: conceptos/analisis-evaluacion.md
+        - file: conceptos/fenomenos-naturales.md
+        - file: conceptos/amenaza-sismica.md
         - file: conceptos/identificacion-escenarios.md
         - file: conceptos/monitoreo-riesgo.md
+# Seccion 2. Metodologias y conceptos
+    - title: Metodologías de Análisis de Riesgo
+      children:
+        - file: conceptos/analisis-evaluacion.md
         - file: conceptos/glosario.md
 # Seccion 2. Fuentes de datos para la GRD
 
@@ -40,22 +45,29 @@ project:
     - title: Cuadernos de Conocimiento
       file: notebooks/cuadernos-de-conocimiento.md
       children:
+        - file: notebooks/sismicidad-colombia.ipynb
+        - file: notebooks/gee-inundaciones-sentinel1.ipynb
+        - file: notebooks/gee-colombia-ejemplo.md
         - file: notebooks/agu-notebook.ipynb
         - file: notebooks/lector-precipitacion-mensual.ipynb
-          title: Análisis de precipitacion mensual
         - file: notebooks/inundacion-costera.md
         - file: notebooks/estaciones-hidrometeorologicas.md
+        - file: notebooks/la-palma-seismicity.md
+
+# Convocatoria cuadernos reproducibles
+    - title: Convocatoria
+      children:
+        - file: convocatoria/convocatoria-cuadernos.md
 
 # Seccion 5. Eventos de conocimiento
     - title: Eventos
       children:
         - file: eventos/taller-radares.md
 
-# 3. site: Configuracion del sitio web  
 # Configuracion del sitio.  
 site:
   template: book-theme
-  title: Riesgos
+  title: Plataforma de Riesgos — UNGRD
   options:
     hide_toc: false
     toc_expanded: true
@@ -63,7 +75,12 @@ site:
     primary_color: "#0154a5"
     secondary_color: "#ffffff"
     accent_color: "#2563eb"
-    logo_text: "Riesgos"
+    logo_text: "UNGRD · Riesgos"
+    # Opción 2: JupyterLite (Thebe-Lite) — Python en el navegador via WebAssembly
+    # Activa el botón "Código en vivo" en cada cuaderno sin servidor externo
+    launch_buttons:
+      binderhub_url: https://mybinder.org
+      thebe: true
     extra_head: |
       <link rel="stylesheet" href="_static/custom.css">
     # favicon: favicon.ico

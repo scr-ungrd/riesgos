@@ -1,0 +1,8 @@
+#!/bin/bash
+# Habilita extensiones de Jupyter necesarias para los cuadernos interactivos
+jupyter nbextension enable --py widgetsnbextension --sys-prefix
+jupyter labextension install @jupyter-widgets/jupyterlab-manager 2>/dev/null || true
+
+# Autentica Google Earth Engine con cuenta de servicio (si existe el secreto)
+# Para autenticación, los usuarios deben ejecutar: import ee; ee.Authenticate()
+echo "✅ Entorno Binder listo — Plataforma UNGRD"
