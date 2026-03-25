@@ -28,7 +28,7 @@ abbreviations:
 
 Cuadernos Reproducibles de Conocimiento del Riesgo
 
-## Introducción 
+## Introducción
 
 La producción de conocimiento técnico y científico en gestión del riesgo de desastres ha crecido de manera sostenida en Colombia durante la última década. Sin embargo, persistente la brecha que separa la generación de ese conocimiento de su reutilización efectiva: los métodos quedan atrapados en artículos científicos informes institucionales de difícil acceso, los datos de entrada no se publican junto con los resultados, y los análisis rara vez pueden ser verificados, extendidos o adaptados por terceros. Esta convocatoria nace como respuesta a esa brecha.
 
