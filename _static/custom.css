@@ -251,3 +251,18 @@ nav[aria-label="Site navigation"] > ul > li > a,
     font-size: 1.8rem;
   }
 }
+/* Circular images with blurred edges for team cards */
+.team-profile-img, .team-profile-img img {
+  width: 150px !important;
+  height: 150px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.2) !important;
+  margin: 1rem auto !important;
+  display: block !important;
+}
+.team-profile-img {
+  background: transparent !important;
+  border: none !important;
+}
+
