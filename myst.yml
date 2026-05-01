@@ -64,6 +64,10 @@ project:
       children:
         - file: eventos/taller-radares.md
 
+# Seccion 6. Equipo
+    - title: Equipo
+      file: equipo/equipo.md
+
 # Configuracion del sitio.  
 site:
   template: book-theme
@@ -81,7 +85,6 @@ site:
     launch_buttons:
       binderhub_url: https://mybinder.org
       thebe: true
-    extra_head: |
-      <link rel="stylesheet" href="_static/custom.css">
+    style: _static/custom.css
     # favicon: favicon.ico
     # logo: site_logo.png
