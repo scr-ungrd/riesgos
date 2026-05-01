@@ -1,31 +1,12 @@
 ---
 title: Plataforma de Análisis de Riesgos
 subtitle: Repositorio Científico y Plataforma de Conocimiento — UNGRD
+banner: images/banner.png
 authors:
   - name: Subdirección para el Conocimiento del Riesgo
     affiliation: Unidad Nacional para la Gestión del Riesgo de Desastres (UNGRD)
     github: scr-ungrd
 ---
-
-::::{hero}
-
-# Plataforma de Análisis de Riesgos
-
-## Subdirección para el Conocimiento del Riesgo · UNGRD
-
-Repositorio científico abierto para el análisis, modelado y visualización del riesgo de desastres en Colombia. Integra análisis reproducibles, datos geoespaciales y herramientas de inteligencia territorial.
-
-:::{button-link} conceptos/amenaza-sismica
-:color: primary
-:shadow:
-Explorar Amenazas →
-:::
-:::{button-link} notebooks/cuadernos-de-conocimiento
-:color: secondary
-:shadow:
-Ver Cuadernos de Análisis →
-:::
-::::
 
 ---
 
@@ -148,7 +129,7 @@ Colombia se ubica en la convergencia de las placas Nazca, Caribe y Sudamérica. 
 ^^^
 Las inundaciones son la amenaza de mayor recurrencia en Colombia, afectando principalmente las cuencas del Magdalena, Cauca y las zonas costeras.
 
-*En desarrollo*
+_En desarrollo_
 :::
 
 :::{card}
@@ -157,7 +138,7 @@ Las inundaciones son la amenaza de mayor recurrencia en Colombia, afectando prin
 ^^^
 Colombia cuenta con más de 15 volcanes activos o potencialmente activos, monitoreados por el Sistema Geológico Colombiano.
 
-*En desarrollo*
+_En desarrollo_
 :::
 
 :::{card}
@@ -166,7 +147,7 @@ Colombia cuenta con más de 15 volcanes activos o potencialmente activos, monito
 ^^^
 Los deslizamientos y flujos de detritos son frecuentes en las zonas montañosas, exacerbados por eventos de lluvia intensa.
 
-*En desarrollo*
+_En desarrollo_
 :::
 
 :::{card}
@@ -175,7 +156,7 @@ Los deslizamientos y flujos de detritos son frecuentes en las zonas montañosas,
 ^^^
 Las costas Atlántica y Pacífica están expuestas a la influencia de sistemas tropicales y el fenómeno ENSO.
 
-*En desarrollo*
+_En desarrollo_
 :::
 
 :::{card}
@@ -184,7 +165,7 @@ Las costas Atlántica y Pacífica están expuestas a la influencia de sistemas t
 ^^^
 La costa Pacífica colombiana presenta historial de tsunamis locales y lejanos, como el evento de Tumaco de 1906.
 
-*En desarrollo*
+_En desarrollo_
 :::
 
 ::::
