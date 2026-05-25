@@ -41,18 +41,6 @@ project:
 
 # Seccion 4. Analitica de riesgos
 
-# Seccion 3. Cuadernos de conocimiento
-    - title: Cuadernos de Conocimiento
-      file: notebooks/cuadernos-de-conocimiento.md
-      children:
-        - file: notebooks/sismicidad-colombia.ipynb
-        - file: notebooks/gee-inundaciones-sentinel1.ipynb
-        - file: notebooks/gee-colombia-ejemplo.md
-        - file: notebooks/agu-notebook.ipynb
-        - file: notebooks/lector-precipitacion-mensual.ipynb
-        - file: notebooks/inundacion-costera.md
-        - file: notebooks/estaciones-hidrometeorologicas.md
-        - file: notebooks/la-palma-seismicity.md
 
 # Convocatoria cuadernos reproducibles
     - title: Convocatoria

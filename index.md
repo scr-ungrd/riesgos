@@ -39,8 +39,6 @@ Visualización interactiva de amenazas, fallas activas, zonas de riesgo y datos 
 
 :::{card}
 :class-header: bg-warning
-:link: notebooks/cuadernos-de-conocimiento
-:link-type: doc
 🔬 **Ciencia Abierta**
 ^^^
 Todo el código, datos y metodologías son abiertos y reproducibles, siguiendo los principios FAIR de la ciencia abierta.
@@ -172,61 +170,6 @@ _En desarrollo_
 
 ---
 
-## Cuadernos de Análisis
-
-Los cuadernos de conocimiento son **documentos científicos ejecutables** que combinan texto, código, datos y visualizaciones en un solo entorno reproducible.
-
-::::{grid} 1 2 2 2
-:gutter: 3
-
-:::{card}
-:link: notebooks/la-palma-seismicity
-:link-type: doc
-:class-header: bg-danger text-white
-🌋 **Sismicidad La Palma 2021**
-^^^
-Análisis de la crisis sísmica asociada a la erupción volcánica de La Palma, Canarias. Incluye detección de enjambres, análisis espacio-temporal y modelado de precursores.
-
-`Python` · `Sismología` · `Series Temporales`
-:::
-
-:::{card}
-:link: notebooks/lector-precipitacion-mensual
-:link-type: doc
-:class-header: bg-primary text-white
-🌧️ **Precipitación Mensual**
-^^^
-Procesamiento y análisis de registros de precipitación de estaciones hidrometeorológicas del IDEAM. Visualización de patrones temporales y espaciales.
-
-`Python` · `Hidrología` · `IDEAM`
-:::
-
-:::{card}
-:link: notebooks/estaciones-hidrometeorologicas
-:link-type: doc
-:class-header: bg-success text-white
-📡 **Red Hidrometeorológica**
-^^^
-Catálogo y análisis de la red de estaciones hidrometeorológicas de Colombia. Acceso a datos en tiempo real e históricos.
-
-`Python` · `APIs` · `Geoespacial`
-:::
-
-:::{card}
-:link: notebooks/inundacion-costera
-:link-type: doc
-:class-header: bg-warning
-🌊 **Inundación Costera**
-^^^
-Modelado de inundación costera con escenarios de cambio climático. Análisis del nivel del mar y zonas de exposición en litorales colombianos.
-
-`Python` · `Oceanografía` · `SLR`
-:::
-
-::::
-
----
-
 ## Integración con Google Earth Engine
 
 :::{admonition} Análisis Geoespacial con GEE
@@ -278,8 +221,6 @@ El **Análisis Probabilista de Amenaza Sísmica (PSHA)** es el estándar interna
 - OpenQuake Engine (GEM Foundation)
 - CRISIS V7.2
 - Python: `numpy`, `scipy`, `pandas`, `matplotlib`
-
-[→ Ver ejemplo en el cuaderno AGU](notebooks/agu-notebook.ipynb)
 :::
 
 :::{tab-item} Análisis Espacial
@@ -290,8 +231,6 @@ El análisis espacial integra datos geográficos de diferentes fuentes para iden
 - QGIS / ArcGIS
 - Python: `geopandas`, `rasterio`, `folium`, `leafmap`
 - Google Earth Engine
-
-[→ Ver estaciones hidrometeorológicas](notebooks/estaciones-hidrometeorologicas.md)
 :::
 
 :::{tab-item} Series Temporales
@@ -302,8 +241,6 @@ El análisis de series temporales permite identificar tendencias, patrones estac
 - Python: `pandas`, `statsmodels`, `scikit-learn`
 - R: `forecast`, `tsibble`
 - Jupyter Notebooks
-
-[→ Ver análisis de precipitación](notebooks/lector-precipitacion-mensual.ipynb)
 :::
 
 :::{tab-item} Modelado de Impacto
@@ -314,8 +251,6 @@ La evaluación de impacto combina modelos de amenaza, exposición y vulnerabilid
 - OpenQuake (pérdidas sísmicas)
 - HAZUS (adaptado para Colombia)
 - Python: `pandas`, `scipy`
-
-[→ Ver análisis La Palma](notebooks/la-palma-seismicity.md)
 :::
 
 ::::
